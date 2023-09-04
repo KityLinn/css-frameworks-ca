@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/css/index.css">
+    <script src="https://kit.fontawesome.com/f030c15e73.js" crossorigin="anonymous"></script>
+    <title>Feed</title>
+</head>
+
+<body>
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom border-2">  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center ms-2 mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+        </ul>
+        
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">Login</button>
+          <button type="button" class="btn btn-primary me-3">Sign-up</button>
+        </div>
+      </header>
+
+      <main class="d-flex row">
+        <div class="col-3"></div>
+        <div class="col-6 d-flex flex-column align-items-center gap-5">
+          <div class="text-center"><h2>Latest posts</h2></div>
+          <div class="d-flex align-items-center gap-3">
+            <input class="rounded form-control" type="search" placeholder="Search for more posts">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="d-flex gap-5">
+            <button class="btn btn-primary">Newest</button>
+            <button class="btn btn-outline-primary">Oldest</button>
+            <button class="btn btn-outline-primary">Most viewed</button>
+          </div>
+          <div class="image-box d-flex align-items-center flex-column border border-3">
+            <div class="w-50"><img class="img-fluid img-thumbnail"src="../pictures/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="Cool Kitty"></div>
+            <p>My cool kitty</p>
+          </div>
+          <div class="image-box d-flex align-items-center flex-column border border-3">
+            <div class="w-50"><img class="img-fluid img-thumbnail"src="../pictures/kabo-p6yH8VmGqxo-unsplash.jpg" alt="Cool Kitty"></div>
+            <p>Adorable kitty</p>
+          </div>
+          <div class>
+            <form action="form-outline">
+              <textarea name="new post" placeholder="Create a new post" cols="80" rows="5"></textarea>
+            </form>
+          </div>
+        </div>
+        <div class="col-3"></div>
+
+      </main>
+
+      <footer class="mt-5 pt-3">
+        <ul class="nav justify-content-center border-bottom border-2 pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+      </footer>
+</body>
+</html>
